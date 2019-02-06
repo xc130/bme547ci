@@ -7,7 +7,6 @@ import pytest
                           ('tachycardic', True), ('tachycardic.', True),
                           ('tachycardi', False), ('TachyCardic', True),
                           ('TACHYCARDIC', True), (6, False)])
-
 def test_is_tachycardic(input, exp):
     ans = is_tachycardic(input)
-    assert ans ==exp
+    assert ans == exp
